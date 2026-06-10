@@ -1,0 +1,5 @@
+node-serialport-bindings-interface (1.2.2) unstable; urgency=medium
+
+  * Initial Debian packaging of @serialport/bindings-interface; dist/ vendored from npm 1.2.2.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 10 Jun 2026 09:00:00 +0200

@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: @serialport/bindings-interface
+Source: https://github.com/serialport/bindings-interface
+
+Files: *
+Copyright: 2010-2024 Serialport contributors
+License: Expat
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+ See /usr/share/common-licenses for related license texts.
+
+Files: debian/*
+Copyright: 2026 Vítězslav Dvořák <info@vitexsoftware.cz>
+License: Expat
+ As above.

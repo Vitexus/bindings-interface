@@ -1,0 +1,19 @@
+Source: node-serialport-bindings-interface
+Section: javascript
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Homepage: https://github.com/serialport/bindings-interface
+Vcs-Browser: https://github.com/Vitexus/bindings-interface
+Rules-Requires-Root: no
+
+Package: node-serialport-bindings-interface
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends}
+Description: Interface definitions for Node.js serialport bindings
+ Part of the Node.js serialport library stack. The pre-built dist/ is
+ vendored from the upstream npm release so the Debian build runs offline.
